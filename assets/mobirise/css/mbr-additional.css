@@ -2335,75 +2335,128 @@ section.lazy-placeholder:after {
 .cid-s1CAEvYUqm .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-s1Jbxbhdxh {
-  padding-top: 135px;
-  padding-bottom: 60px;
+.cid-s1JY9prxmd {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-s1Jbxbhdxh .progress {
-  width: 100%;
-}
-.cid-s1Jbxbhdxh progress {
-  height: 8px;
-}
-.cid-s1Jbxbhdxh h3 {
+.cid-s1JY9prxmd h3 {
   text-align: center;
   font-weight: 300;
 }
-.cid-s1Jbxbhdxh .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-s1Jbxbhdxh .progress_value {
-  position: relative;
-}
-.cid-s1Jbxbhdxh .progress_elements {
+.cid-s1JY9prxmd .wrap {
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
 }
-.cid-s1Jbxbhdxh .title-wrap {
-  display: flex;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
+.cid-s1JY9prxmd .mbr-section-subtitle {
+  color: #767676;
 }
-.cid-s1Jbxbhdxh .progress1 .progressbar-number:before,
-.cid-s1Jbxbhdxh .progress2 .progressbar-number:before,
-.cid-s1Jbxbhdxh .progress3 .progressbar-number:before,
-.cid-s1Jbxbhdxh .progress4 .progressbar-number:before {
+.cid-s1JY9prxmd .card {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  word-wrap: break-word;
+}
+.cid-s1JY9prxmd ellipse {
+  stroke: rgba(206, 206, 206, 0.4);
+}
+.cid-s1JY9prxmd path {
+  stroke: #149dcc;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-s1JY9prxmd .card {
+    -webkit-flex-basis: 33%;
+    flex-basis: 33%;
+  }
+}
+.cid-s1JYnXdKqd {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-s1JYnXdKqd .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-s1JYnXdKqd .timeline-text-content {
+  padding: 2rem 2.5rem;
+  background: #efefef;
+  margin-right: 2rem;
+  transition: all .4s;
+}
+.cid-s1JYnXdKqd .timeline-text-content p {
+  margin-bottom: 0;
+}
+.cid-s1JYnXdKqd .timeline-element {
+  margin-bottom: 50px;
+  position: relative;
+  word-wrap: break-word;
+  word-break: break-word;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.cid-s1JYnXdKqd .timeline-element:hover .timeline-text-content {
+  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
+  transition: all .4s;
+}
+.cid-s1JYnXdKqd .reverse {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-s1JYnXdKqd .reverse .timeline-text-content {
+  margin-left: 2rem;
+  margin-right: 0;
+}
+.cid-s1JYnXdKqd .iconsBackground {
   position: absolute;
-  right: 15px;
-  top: 0;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #efefef;
+  top: 20px;
+  margin-left: -30px;
 }
-.cid-s1Jbxbhdxh progress[value]::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
+.cid-s1JYnXdKqd .mbr-iconfont {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  display: inline-block;
+  z-index: 3;
+  top: 13px;
+  left: 13px;
 }
-.cid-s1Jbxbhdxh progress::-webkit-progress-value {
-  background: #149dcc;
+.cid-s1JYnXdKqd .separline:before {
+  top: 20px;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #efefef;
+  left: calc(50% - 1px);
+  height: calc(100% + 4rem);
 }
-.cid-s1Jbxbhdxh progress[value]::-moz-progress-bar {
-  background: #149dcc;
+@media (max-width: 768px) {
+  .cid-s1JYnXdKqd .iconsBackground {
+    left: 1.5rem;
+  }
+  .cid-s1JYnXdKqd .separline:before {
+    left: calc(1.5rem - 1px);
+  }
+  .cid-s1JYnXdKqd .timeline-text-content {
+    margin-left: 3rem !important;
+    margin-right: 0 !important;
+  }
+  .cid-s1JYnXdKqd .reverse .timeline-text-content {
+    margin-right: 0 !important;
+  }
 }
-.cid-s1Jbxbhdxh progress::-ms-fill {
-  background: #149dcc;
-}
-.cid-s1Jbxbhdxh .progress1 .progressbar-number:before {
-  content: '97';
-}
-.cid-s1Jbxbhdxh .progress2 .progressbar-number:before {
-  content: '80';
-}
-.cid-s1Jbxbhdxh .progress3 .progressbar-number:before {
-  content: '90';
-}
-.cid-s1Jbxbhdxh .progress4 .progressbar-number:before {
-  content: '100';
-}
-.cid-s1Jbxbhdxh .progress-primary {
-  background: rgba(206, 206, 206, 0.4);
-  border: none;
-  outline: none;
-}
-.cid-s1Jbxbhdxh .progress-primary::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-s1Jbxbhdxh .progress_value span {
-  padding-left: 30px;
+.cid-s1JYnXdKqd .reverseTimeline {
+  display: flex;
+  flex-direction: column-reverse;
 }
